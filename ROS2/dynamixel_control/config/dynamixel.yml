@@ -1,0 +1,18 @@
+port: /dev/ttyUSB0
+rate: 1000000
+motors:
+  - id: 1
+    mode: position
+  - id: 2
+    mode: position
+  - id: 3
+    mode: position
+  - id: 4
+    mode: position
+  - id: 5
+    mode: position
+  - id: 6
+    mode: position
+  - id: 7
+    mode: current
+# position, velocity, current
